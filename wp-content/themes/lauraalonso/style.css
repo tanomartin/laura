@@ -1,0 +1,127 @@
+body{
+	background-color:#fff!important;
+}
+
+
+
+.titulo{
+	font-family: 'DM Serif Text', serif;
+	font-size:40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: ;
+    letter-spacing: normal;
+    text-align: center;
+
+}
+
+.sub-text{
+
+	font-size:13px;
+	line-height: 20px;
+	color:#505050;
+	width:398px;
+	text-align: center;
+	margin:auto;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+.font-weight{
+	font-family: 'Libre Baskerville', serif;
+	font-weight:700!important;
+
+}
+
+.color-primary{
+	color:#ff9300;
+}
+
+.text-submit{
+	background-color:#ff9300;
+	color:#fff;
+	font-family: 'Bitter', serif;
+	font-size:15px;
+	line-height:35px;
+	border-bottom-width: 0px;
+    padding-top: 0px;
+    border: none;
+    width:260px;
+    border-radius:7px;
+}
+
+.input-form{
+	width:260px;
+	height:30px;
+	font-size:12px;
+	background: transparent;
+	color: #bababa;
+ 	border: solid 0.5px #bababa;
+ 	padding:1rem;
+
+}
+
+
+.social-icons {
+  position: absolute;
+  margin-bottom: 2rem;
+  width: 100%;
+  z-index: 2;
+}
+
+.social-icons ul {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.social-icons ul > li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.social-icons ul > li > a {
+  display: block;
+  color: white;
+  background-color: rgba(0, 46, 102, 0.8);
+  border-radius: 100%;
+  font-size: 2rem;
+  line-height: 1.25rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+@media (min-width: 768px) {
+  .social-icons {
+    margin: 0;
+    position: absolute;
+    left: 2rem; /*left:2.5rem*/
+    top:35%; /*bottom:2rem*/
+    width: auto;
+  }
+  .social-icons ul {
+    margin-top: 0;
+    width: auto;
+  }
+  .social-icons ul > li {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+  .social-icons ul > li:last-child {
+    margin-bottom: 0;
+  }
+  .social-icons ul > li > a {
+    transition: all 0.2s ease-in-out;
+    font-size: 2rem;
+    line-height: 4rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  .social-icons ul > li > a:hover {
+    background-color: #002E66;
+  }
+}
