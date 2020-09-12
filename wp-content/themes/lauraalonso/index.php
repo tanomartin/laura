@@ -46,8 +46,8 @@
 
 
 <div class="container h-100">
-	<div class="row h-100" >
-        <div class="col-6 my-auto" >
+	<div class="row h-100 " >
+        <div class="col-lg-6 my-auto" >
           <div class="masthead-content text-white py-5 py-md-0">
             <h1 class="mb-4 titulo color-primary">¡Hola, soy Laura!</h1>
             <p class="sub-text text-center">Quiero presentarte mi <span class="font-weight">Lado B.</span> 
@@ -72,7 +72,7 @@
 
 
 
-        <div class="col-6 my-auto">
+        <div class="col-lg-6 my-auto">
           <div class="masthead-content text-white py-5 py-md-0">
           	<img  src="<?php echo THEME_URL ?>/img/img_laura-alonso.jpg" class="img-fluid">
           </div>

@@ -125,3 +125,25 @@ body{
     background-color: #002E66;
   }
 }
+
+
+@media (max-width: 375px) {
+
+.input-form{
+	width:90%
+
+}
+
+.text-submit{
+    width:90%;
+}
+
+
+.sub-text{
+
+	width:100%;
+
+
+}
+
+}
