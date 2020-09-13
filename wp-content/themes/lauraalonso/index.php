@@ -46,8 +46,8 @@
 
 
 <div class="container h-100">
-	<div class="row h-100 " >
-        <div class="col-lg-6 my-auto" >
+	<div class="row h-100" >
+        <div class="col-lg-6 col-md-6 my-auto position-left" >
           <div class="masthead-content text-white py-5 py-md-0">
             <h1 class="mb-4 titulo color-primary">¡Hola, soy Laura!</h1>
             <p class="sub-text text-center">Quiero presentarte mi <span class="font-weight">Lado B.</span> 
@@ -70,13 +70,50 @@
         </div>
 
 
+ <div class="col-lg-6 col-md-6 img-right" >
 
+ 	<div class="row mb-4">
+        <div class="col-lg-8 col-md-8 ">
+		  <div class="img-01"></div>
 
-        <div class="col-lg-6 my-auto">
-          <div class="masthead-content text-white py-5 py-md-0">
-          	<img  src="<?php echo THEME_URL ?>/img/img_laura-alonso.jpg" class="img-fluid">
-          </div>
         </div>
+
+        <div class="col-lg-4 col-md-4 p-0">
+        	 <div class="img-02 mb-4"></div>
+        	  <div class="img-03 mb-4"></div>
+		
+        </div>
+       </div>
+
+ 	<div class="row mb-4">
+        <div class="col-lg-4 col-md-4 ">
+        	 <div class="img-04"></div>
+        </div>
+
+         <div class="col-lg-8 col-md-8 p-0">
+        	 <div class="img-05"></div>
+        </div>
+      </div>
+
+ 	<div class="row">
+        <div class="col-lg-8 col-md-8">
+        	 <div class="img-06"></div>
+        </div>
+
+         <div class="col-lg-4 col-md-4 p-0">
+        	 <div class="img-07"></div>
+        </div>
+
+
+ 	</div>
+
+
+
+ </div>
+
+
+
+
 
 	</div>
 
@@ -132,17 +169,6 @@
       </li>
     </ul>
   </div>
-
-<!--
-  <div class="masthead">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-      <div class="row h-100">
-
-      </div>
-    </div>
-  </div>
-!-->
 
 
 

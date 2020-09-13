@@ -6,11 +6,11 @@ body{
 
 .titulo{
 	font-family: 'DM Serif Text', serif;
-	font-size:40px;
+	font-size:45px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: ;
+    line-height: 37px;
     letter-spacing: normal;
     text-align: center;
 
@@ -92,6 +92,140 @@ body{
   height: 2rem;
   width: 2rem;
 }
+
+.suscripcion-ok{
+	color:#7ae582;
+	font-size:18px;
+	font-weight:bold;
+
+}
+
+.suscripcion-not{
+	color:#ee6055;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.img-right{
+	position:absolute;
+	right:0px;
+}
+
+.p-0{
+	padding-right:0px!important;
+}
+
+.position-left{
+	position:relative;
+	left:-50px;
+}
+
+.img-01{
+	width:100%;
+	height:50vh;
+	background-color:red;
+	background-image:url("img/img-laura01.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position-x:50%;
+	background-position-y:10%;
+	background-size:cover;
+
+}
+
+.img-02{
+	width:100%;
+	height:47%;
+	background-color:red;
+	background-image:url("img/img-laura02.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position-x:50%;
+	background-position-y:10%;
+	background-size:cover;
+
+}
+
+.img-03{
+	width:100%;
+	height:47%;
+	padding-right:0px;
+	background-color:red;
+	background-image:url("img/img-laura03.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position-x:50%;
+	background-position-y:10%;
+	background-size:cover;
+
+}
+
+.img-04{
+	width:100%;
+	height:25vh;
+	padding-right:0px;
+	background-color:red;
+	background-image:url("img/img-laura04.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position-x:50%;
+	background-position-y:10%;
+	background-size:cover;
+
+}
+
+.img-05{
+	width:100%;
+	height:25vh;
+	padding-right:0px;
+	background-color:red;
+	background-image:url("img/img-laura05.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position-x:50%;
+	background-position-y:10%;
+	background-size:cover;
+
+}
+.img-06{
+	width:100%;
+	height:25vh;
+	padding-right:0px;
+	background-color:red;
+	background-image:url("img/img-laura06.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position-x:50%;
+	background-position-y:10%;
+	background-size:cover;
+
+}
+.img-07{
+	width:100%;
+	height:25vh;
+	padding-right:0px;
+	background-color:red;
+	background-image:url("img/img-laura07.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position-x:50%;
+	background-position-y:10%;
+	background-size:cover;
+
+}
+
+
+@media (max-width: 991px) {
+	.sub-text{
+		width:100%!important;
+	}
+	.position-left{
+		left:0px;
+	}
+
+}
+
+
 
 @media (min-width: 768px) {
   .social-icons {
