@@ -50,7 +50,7 @@
         <div class="col-lg-6 col-md-6 my-auto position-left" >
           <div class="masthead-content text-white py-5 py-md-0">
             <h1 class="mb-4 titulo color-primary">¡Hola, soy Laura!</h1>
-            <p class="sub-text text-center">Quiero presentarte mi <span class="font-weight">Lado B.</span> 
+            <p class="sub-text text-center p-mobile">Quiero presentarte mi <span class="font-weight">Lado B.</span> 
             </p>
             <p class="sub-text mb-5 text-center">Ideas, historias, libros y música, películas y series, viajes y gastronomía. ¡También política y economía!</p>
             <hr class="mb-5" style="width:40%">
@@ -74,18 +74,20 @@
 
  	<div class="row mb-4">
         <div class="col-lg-8 col-md-8 ">
+        	<h1 class="title-mobile">¡Hola, soy Laura!</h1>
+        	<div class="overlay"></div>
 		  <div class="img-01"></div>
 
         </div>
 
-        <div class="col-lg-4 col-md-4 p-0">
+        <div class="col-lg-4 col-md-4 p-0 display-none-photo">
         	 <div class="img-02 mb-4"></div>
         	  <div class="img-03 mb-4"></div>
 		
         </div>
        </div>
 
- 	<div class="row mb-4">
+ 	<div class="row mb-4 display-none-photo">
         <div class="col-lg-4 col-md-4 ">
         	 <div class="img-04"></div>
         </div>
@@ -95,7 +97,7 @@
         </div>
       </div>
 
- 	<div class="row">
+ 	<div class="row display-none-photo">
         <div class="col-lg-8 col-md-8">
         	 <div class="img-06"></div>
         </div>
@@ -115,9 +117,6 @@
 
 
 
-	</div>
-
-</div>
 
 
   <div class="social-icons">
@@ -168,7 +167,21 @@
 
       </li>
     </ul>
-  </div>
+  </div> <!--FIN SOCIAL ICONS!-->
+
+
+
+
+	</div>
+
+
+
+
+
+
+</div>
+
+
 
 
 
