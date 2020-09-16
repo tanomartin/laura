@@ -280,6 +280,23 @@ textarea:focus,
      outline: 0 none;
 }
 
+input[type=text] {   
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0px;
+ }
+
+ input[type=email] {   
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0px;
+
+ }
+
 
 
 @media (max-width: 991px) {
