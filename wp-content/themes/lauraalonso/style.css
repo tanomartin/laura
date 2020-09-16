@@ -1,6 +1,7 @@
 body{
 	background-color:#fff!important;
 }
+/*
 
 @font-face {
 font-family: 'Bitter';
@@ -19,10 +20,11 @@ font-family: 'LibreBaskerville';
 src: url("../fonts/LibreBaskerville-Regular.otf");
 src: url("../fonts/LibreBaskerville-Regular.ttf");
 }
-
+*/
 
 .titulo{
-	font-family: 'DMSerif', serif;
+	/*font-family: 'DMSerif', serif;*/
+	font-family: 'DM Serif Text', serif;
 	font-size:40px;
     font-weight: normal;
     font-stretch: normal;
@@ -30,25 +32,26 @@ src: url("../fonts/LibreBaskerville-Regular.ttf");
     line-height: 40px;
     letter-spacing: normal;
     text-align: center;
-    font-weight:bold;
 
 }
 
 .sub-text{
 
-	font-size:16px;
+	font-size:14px;
 	line-height: 20px;
 	color:#505050;
 	width:398px;
 	text-align: center;
 	margin:auto;
-	font-family: 'LibreBaskerville', serif;
+	font-family: 'Libre Baskerville', serif;
+	/*font-family: 'LibreBaskerville', serif;*/
 	font-weight:300;
 
 }
 
 .font-weight{
-	font-family: 'LibreBaskerville', serif;
+	font-family: 'Libre Baskerville', serif;
+	/*font-family: 'LibreBaskerville', serif;*/
 	font-weight:700!important;
 
 }
@@ -60,7 +63,7 @@ src: url("../fonts/LibreBaskerville-Regular.ttf");
 .text-submit{
 	background-color: #ff9300;
     color: #fff;
-    font-family: 'Bitter', serif;
+	font-family: 'Bitter', serif;
     font-size: 18px;
     font-weight: bold;
     line-height: 45px;
@@ -83,11 +86,11 @@ src: url("../fonts/LibreBaskerville-Regular.ttf");
 }
 
 h4{
-
-	font-family: 'DMSerif', serif;
-	font-weight: bold;
+	/*font-family: 'DMSerif', serif;*/
+	font-family: 'DM Serif Text', serif;
 	font-stretch: normal;
 	font-style: normal;
+	font-weight:normal!important;
 	line-height: 1.37;
 	letter-spacing: normal;
 	text-align: center;

@@ -10,11 +10,10 @@
 
   <title>Laura Alonso</title>
 
-<!-- Google Fonts
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
-!-->
+
 
 
   <!-- Bootstrap core CSS -->
