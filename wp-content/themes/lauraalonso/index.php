@@ -1,12 +1,3 @@
-<!--<div align="center">
-	<img src="<?php echo THEME_URL ?>/img/comingsoon.jpg"></img>
-</div>
-<div align="center">
- <?php //echo do_shortcode('[mc4wp_form id="5"]') ?>	
-</div>
-!-->
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,11 +10,11 @@
 
   <title>Laura Alonso</title>
 
-<!--GoogleFonts !-->
+<!-- Google Fonts
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
-
+!-->
 
 
   <!-- Bootstrap core CSS -->
@@ -47,7 +38,7 @@
 
 <div class="container h-100">
 	<div class="row h-100" >
-        <div class="col-lg-6 col-md-6 my-auto position-left" >
+        <div class="col-lg-7 col-md-6 my-auto" >
           <div class="masthead-content text-white py-5 py-md-0">
             <h1 class="mb-4 titulo color-primary">¡Hola, soy Laura!</h1>
             <p class="sub-text text-center p-mobile">Quiero presentarte mi <span class="font-weight">Lado B.</span> 
@@ -56,7 +47,7 @@
             <hr class="mb-5" style="width:40%">
             <div class="newsletter">
 
-            	<h4 class="text-center color-primary">Suscribite a mi newsletter:</h4>
+            	<h4 class="text-center color-primary mb-0">Suscribite a mi newsletter:</h4>
             	<p class="sub-text text-center">Dejame tus datos para recibir novedades.</b></p>
 
             </div>
@@ -70,7 +61,7 @@
         </div>
 
 
- <div class="col-lg-6 col-md-6 img-right" >
+ <div class="col-lg-5 col-md-6 img-right" >
 
  	<div class="row mb-4">
         <div class="col-lg-8 col-md-8 ">
