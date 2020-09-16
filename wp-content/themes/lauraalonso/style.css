@@ -367,6 +367,7 @@ display:none;
 	}
 
 	.title-mobile{
+		font-family: 'DMSerif', serif;
 		color:#fff;
 		display:inline-block;
 		position:absolute;
