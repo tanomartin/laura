@@ -411,8 +411,10 @@ display:none;
 	}
 
 	.title-mobile{
-		font-family: 'DMSerif', serif;
+		font-family: 'DM Serif Text', serif;
+		/*font-family: 'DMSerif', serif;*/
 		color:#fff;
+		font-weight:normal!important;
 		display:inline-block;
 		position:absolute;
 		z-index:-8;
