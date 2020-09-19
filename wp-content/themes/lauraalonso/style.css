@@ -117,6 +117,7 @@ h4{
   display: inline-block;
 }
 
+/*
 .social-icons ul > li > a {
   display: block;
   color: white;
@@ -127,6 +128,7 @@ h4{
   height: 2rem;
   width: 2rem;
 }
+*/
 
 .suscripcion-ok{
 	color:#7ae582;
@@ -339,6 +341,7 @@ input[type=text] {
   .social-icons ul > li:last-child {
     margin-bottom: 0;
   }
+  /*
   .social-icons ul > li > a {
     transition: all 0.2s ease-in-out;
     font-size: 2rem;
@@ -346,9 +349,12 @@ input[type=text] {
     height: 2rem;
     width: 2rem;
   }
+  */
+  /*
   .social-icons ul > li > a:hover {
     background-color: #002E66;
   }
+  */
 
   .title-mobile{
   	display:none;
