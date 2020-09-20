@@ -77,9 +77,9 @@ src: url("../fonts/LibreBaskerville-Regular.ttf");
 .input-form{
     width: 60%;
     height: 42px;
-    font-size: 12px;
+    font-size: 14px;
     background: transparent;
-    color: #bababa;
+    color: #333;
     border: solid 0.5px #bababa;
     padding: 1rem;
 
