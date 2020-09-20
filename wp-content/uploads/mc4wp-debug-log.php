@@ -41,3 +41,4 @@ Response:
 [2020-09-13 16:02:48] WARNING: Form 5 > mzuc*******@gm***.com is already subscribed to the selected list(s)
 [2020-09-13 16:03:00] WARNING: Form 5 > mzuc*******@gm***.com is already subscribed to the selected list(s)
 [2020-09-13 16:03:14] WARNING: Form 5 > mzuc*******@gm***.com is already subscribed to the selected list(s)
+[2020-09-20 11:33:22] WARNING: Form 5 > mzuc*******@gm***.com is already subscribed to the selected list(s)
