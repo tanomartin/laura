@@ -131,8 +131,15 @@ h4{
 */
 
 .suscripcion-ok{
-	color:#7ae582;
+	color:#3fca49;
 	font-size:18px;
+	font-weight:bold;
+
+}
+
+.suscripcion-retry{
+	color:#3fca49;
+	font-size:13.5px;
 	font-weight:bold;
 
 }
