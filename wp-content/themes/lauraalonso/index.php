@@ -48,8 +48,6 @@ window.cookieconsent_options = {"message":"Utilizamos cookies propias y de terce
 
 
 <body>
-<?php include("header.php"); ?>
-
 
 <div class="container h-100">
 	<div class="row h-100" >
