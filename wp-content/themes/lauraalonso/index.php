@@ -20,6 +20,7 @@
 
   <title>Laura Alonso</title>
 
+<link rel="icon" href="<?php echo THEME_URL ?>/favicon.ico" sizes="16x16" type="image/png">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
@@ -40,7 +41,7 @@
 
 
 <script type="text/javascript">
-window.cookieconsent_options = {"message":"Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a través de su navegación. Si continúas navegando aceptas su uso.","dismiss":"ACEPTAR","theme":"dark-bottom"};
+window.cookieconsent_options = {"message":"Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a través de su navegación. Si continúas navegando aceptas su uso.","dismiss":"Entendido","theme":"dark-bottom"};
 </script>
 <script src="<?php echo THEME_URL ?>/resourse/jquery/cookieconsent.min.js"></script>
 
