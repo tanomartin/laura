@@ -49,7 +49,7 @@ window.cookieconsent_options = {"message":"Utilizamos cookies propias y de terce
 
 
 <body>
-
+<?php get_header(); ?>
 <div class="container h-100">
 	<div class="row h-100" >
         <div class="col-lg-7 col-md-6 my-auto" >
@@ -60,13 +60,16 @@ window.cookieconsent_options = {"message":"Utilizamos cookies propias y de terce
             <p class="sub-text mb-5 text-center">Ideas, historias, libros y música, películas y series, viajes y gastronomía. ¡También política y economía!</p>
             <hr class="mb-5" style="width:40%">
             <div class="newsletter">
-
+	
             	<h4 class="text-center color-primary mb-0">Suscribite a mi newsletter:</h4>
             	<p class="sub-text text-center">Dejame tus datos para recibir novedades.</p>
 
             </div>
           </div>
-
+          
+<div align="center">
+ 			<?php echo do_shortcode('[poll id="2"]') ?>	
+		</div>
 
 <div align="center" class="mt-4">
  <?php echo do_shortcode('[mc4wp_form id="5"]') ?>	
@@ -208,7 +211,7 @@ window.cookieconsent_options = {"message":"Utilizamos cookies propias y de terce
   <script src="<?php echo THEME_URL ?>/resourse/bootstrap/js/coming-soon.min.js"></script>
 
 
-
+<?php get_footer(); ?>
 </body>
 
 </html>
