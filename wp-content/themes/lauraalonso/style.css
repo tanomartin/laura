@@ -9,7 +9,7 @@ Version: 1.0
 body{
 	background-color:#fff!important;
 }
-/*
+
 
 @font-face {
 font-family: 'Bitter';
@@ -28,12 +28,12 @@ font-family: 'LibreBaskerville';
 src: url("../fonts/LibreBaskerville-Regular.otf");
 src: url("../fonts/LibreBaskerville-Regular.ttf");
 }
-*/
+
 
 .titulo{
 	/*font-family: 'DMSerif', serif;*/
 	font-family: 'DM Serif Text', serif;
-	font-size:40px;
+	/*font-size:40px;*/
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -43,10 +43,36 @@ src: url("../fonts/LibreBaskerville-Regular.ttf");
 
 }
 
+.nota h2{
+	color:#ff9300;
+	font-size:2.5rem;
+
+}
+
+.nota a{
+	color:#ff9300;
+	text-decoration:underline;
+}
+
+.wp-block-quote{
+	border-left:1px solid #ff9300;
+	padding-left:40px;
+}
+
+.wp-block-quote p{
+	font-style:italic;
+}
+
+.wp-block-quote cite{
+	font-style:normal;
+	font-weight:bold;
+	color:#ff9300;
+}
+
 .sub-text{
 
-	font-size:14px;
-	line-height: 20px;
+	font-size:18px;
+	line-height: 26px;
 	color:#505050;
 	width:398px;
 	text-align: center;
@@ -55,6 +81,28 @@ src: url("../fonts/LibreBaskerville-Regular.ttf");
 	/*font-family: 'LibreBaskerville', serif;*/
 	font-weight:300;
 
+}
+
+.text{
+
+	font-size:18px;
+	line-height: 26px;
+	color:#505050;
+	margin:auto;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+
+.button-o{
+	border-radius:6px;
+	border-color:#ff9300;
+	border:1px solid;
+	color:#ff9300;
+	padding:2px 10px;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:20px;
 }
 
 .font-weight{
@@ -68,18 +116,33 @@ src: url("../fonts/LibreBaskerville-Regular.ttf");
 	color:#ff9300;
 }
 
+.bg-primary{
+	background-color:#ff9300!important;
+}
+
+.footer{
+	height:80px;
+    display: flex;
+    align-items: center;
+
+}
+
 .text-submit{
 	background-color: #ff9300;
     color: #fff;
 	font-family: 'Bitter', serif;
     font-size: 18px;
     font-weight: bold;
-    line-height: 45px;
+    line-height: 45px!important;
     border-bottom-width: 0px;
     padding-top: 0px;
     border: none;
-    width: 60%;
-    border-radius: 7px;
+    width: 60%!important;
+    border-radius: 6px;
+}
+
+.text-submit-newsletter{  /* Pendiente de agregar en el WP esta clase para que el botón del modal tenga el ancho máximo */
+	width:100%!important;
 }
 
 .input-form{
@@ -264,7 +327,7 @@ h4{
 		background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
 		height:220px;
 		width:100%;
-		z-index: -9;
+		z-index: 1;
 	}
 
 
@@ -345,6 +408,198 @@ input[type=text] {
 */
 
 
+.navbar{
+	height:85px;
+}
+
+.navbar-brand{
+
+	font-size:22px;
+	line-height: 30px;
+	text-align: center;
+	margin:auto;
+	font-family: 'DMSerif';
+	font-weight:400;
+}
+
+.navbar-text{
+
+	font-size:14px;
+	line-height: 22px;
+	color:#FF9300!important;
+	font-family: 'DMSerif';
+	font-weight:800;
+	padding-right: .4rem;
+    padding-left: .4rem;
+
+
+}
+.navbar-nav{
+
+	font-size:12px;
+	line-height: 20px;
+	color:#505050;
+	text-align: center;
+	margin:auto;
+	font-family: 'Libre Baskerville', serif;
+	/*font-family: 'LibreBaskerville', serif;*/
+	font-weight:400;
+
+}
+
+.navbar-toggler{
+	background-color:#FF9300;
+    padding: 0.25rem 0.50rem;
+    font-size: 1.015625rem;
+    line-height: 1;
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+
+
+}
+
+.navbar-light .navbar-text a{
+	color:#FF9300;
+}
+
+.navbar-light .navbar-text a:hover{
+	color:#FF9300;
+}
+
+.navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus{
+	color:#FF9300!important;
+}
+
+
+.img-hero-laura{
+	width:100%;
+	height:100vh;
+	/*background-color:red;*/
+	background-image:url("img/img-hero.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+
+}
+
+.text-body{
+	font-size:12px;
+	line-height: 24px;
+	color:#505050;
+	font-family: 'Libre Baskerville', serif;
+}
+
+
+.text-body-s{
+	font-size:10px;
+	line-height: 18px;
+	font-family: 'Libre Baskerville', serif;
+	margin:auto;
+}
+
+.text-body-m{
+	font-size:12px;
+	line-height: 24px;
+	font-family: 'Libre Baskerville', serif;
+	margin:auto;
+}
+
+.id-post-nota {
+	font-size:10px;
+	line-height: 18px;
+	color:#ff9300!important;
+	font-weight:bold;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+.news{
+	width:90%;
+}
+
+.button-submit-small{
+    border-radius: 6px;
+    border: transparent;
+    text-decoration:none;
+    color: #fff;
+    background-color:#ff9300;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+	font-family: 'DMSerif';
+	margin-top:20px;
+
+}
+
+.button-submit-small:hover{
+background-color:#d67b00;
+
+}
+
+.btn-primary{
+	background:#ff9300!important;
+}
+
+.modal-header{
+	border-bottom: 1px solid transparent!important;
+	padding-bottom:0px;
+}
+
+.modal-content{
+	border-radius:0.5rem!important;
+}
+
+.modal-dialog{
+	max-width:70%;
+}
+
+.bifurcador{
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+.input-form-bio .input-form{
+	margin:auto!important;
+}
+
+.input-form-bio .text-submit {
+	width:30%!important;
+}
+
+.destacado{
+
+	font-size:24px;
+	line-height: 32px;
+	color:#FF9300!important;
+	font-family: 'DMSerif';
+	font-weight:800;
+	width:80%;
+}
+
+.titulo-nota{
+	font-size:22px;
+	font-family: 'DMSerif';
+	color:#505050;
+	font-weight:800;
+
+
+}
+
+.nota figure img{
+	width:100%;
+	height:auto;
+}
+figcaption{
+	font-size:12px;
+	color:#BABABA;
+}
+
+figcaption:after{
+    content:" \A f03b ";
+    white-space: pre;}
+
+
+/* RESPONSIVE */
 @media (max-width: 991px) {
 	.sub-text{
 		width:100%!important;
@@ -357,8 +612,19 @@ input[type=text] {
 		width:90%;
 	}
 
+	.navbar{
+	height:auto;
 }
 
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+
+}
 
 
 @media (min-width: 768px) {
@@ -453,6 +719,7 @@ display:none;
 	.social-icons{
 		  right:0px;
 		  margin-bottom:5rem;
+		  display:none;
 	}
 
 	.py-5{
@@ -465,20 +732,30 @@ display:none;
 		color:#fff;
 		font-weight:normal!important;
 		display:inline-block;
-		position:absolute;
-		z-index:-8;
-		padding-top:160px;
+		/*position:absolute;*/
+		z-index:100;
+		/*padding-top:160px;*/
 		font-size:40px;
-		text-align:center;
 		margin:auto;
 		left:0;
 		right:0;
 	}
 
 
-	.p-mobile{
+	/*.p-mobile{
 		padding-top:200px;
+	}*/
+
+	.img-hero-laura{
+		height:60vh;
+		padding-right:0px!important;
+		padding-left:0px!important;
 	}
+
+	.navbar-brand {
+    text-align: left;
+    margin:0px;
+}
 
 	.mb-5, .my-5{
 		margin-bottom:2rem!important;
@@ -491,6 +768,8 @@ display:none;
 
 	.text-submit{
 		line-height: 45px;
+		width:100%!important;
+		border-radius:14px;
 	}
 
 	.img-01{
@@ -500,6 +779,24 @@ display:none;
 .cc_container {
 
     text-align: left!important;
+}
+
+.modal-dialog{
+	max-width:100%;
+	padding-right:16px;
+	padding-left:16px;
+}
+
+.img-modal-news{
+	display:none;
+}
+
+hr{
+	margin-top:50px;
+}
+
+.text{
+	font-size:14px;
 }
 
 
