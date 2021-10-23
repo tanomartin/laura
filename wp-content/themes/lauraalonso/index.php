@@ -115,17 +115,9 @@ Template Name: home
       </div>
     </div>
 
-    <div class="row text-left mb-5">
-      <div class="col-md-8 offset-md-2 mb-4">
-        <p class="text">Última publicación <span class="button-o">Ver todas</span></p>
-      </div>
-      <div class="col-md-8 offset-md-2">
-        <div style="width:100%;height:300px;background-color:#FFF5E8;border-radius:10px">
-        </div>
-      </div>
 
+ <?php include ('ultimanota.php') ?>
 
-    </div>
 
     <div class="row mb-5">
       <div class="col-lg-12 mt-4" style="background-color:#F6F6F6;border-radius:10px;padding:40px;margin-left:15px;margin-right:15px">

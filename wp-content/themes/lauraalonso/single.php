@@ -65,8 +65,25 @@ if( have_posts() ){
       </div>
       <div class="col-md-8 offset-md-2">
         <div style="width:100%;height:300px;background-color:#FFF5E8;border-radius:10px">
+
+<?php  
+
+$next_post = get_next_post();
+
+echo ($next_post->post_title);
+
+echo get_post_meta($next_post->ID, 'bajada', true);
+
+
+ ?> 
+
         </div>
       </div>
+
+
+
+
+
 
 
     </div>
