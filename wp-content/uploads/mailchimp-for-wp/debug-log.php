@@ -42,3 +42,21 @@ Response:
 [2020-09-13 16:03:00] WARNING: Form 5 > mzuc*******@gm***.com is already subscribed to the selected list(s)
 [2020-09-13 16:03:14] WARNING: Form 5 > mzuc*******@gm***.com is already subscribed to the selected list(s)
 [2020-09-20 11:33:22] WARNING: Form 5 > mzuc*******@gm***.com is already subscribed to the selected list(s)
+[2021-10-23 13:18:59] ERROR: Form 5 > Mailchimp API error: 401 Unauthorized. API Key Invalid. API key has been disabled
+
+Request: 
+GET https://us17.api.mailchimp.com/3.0/lists/afb30592b9/members/f5bdc0a59d52c9e646acee2a311d4bc1
+
+
+Response: 
+401 Unauthorized
+{"type":"https://mailchimp.com/developer/marketing/docs/errors/","title":"API Key Invalid","status":401,"detail":"API key has been disabled","instance":"e1620443-3c70-523a-c375-fb2e84df2e27"}
+[2021-10-23 13:22:53] ERROR: Form 5 > Mailchimp API error: 401 Unauthorized. API Key Invalid. API key has been disabled
+
+Request: 
+GET https://us17.api.mailchimp.com/3.0/lists/afb30592b9/members/f5bdc0a59d52c9e646acee2a311d4bc1
+
+
+Response: 
+401 Unauthorized
+{"type":"https://mailchimp.com/developer/marketing/docs/errors/","title":"API Key Invalid","status":401,"detail":"API key has been disabled","instance":"7dc3d777-656b-e8ee-5e3b-998a232b5db3"}

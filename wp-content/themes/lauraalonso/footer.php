@@ -10,13 +10,13 @@
 <div class="bg-primary footer">
 	<div class="container text-white ">
 		<div class="row">
-			<div class="col-lg-4">
+			<div class="col-lg-4 col-md-4 col-sm-12 text-center">
 				<p class="navbar-brand"><b>Laura Alonso</b></p>	
 			</div>
-			<div class="col-lg-4" style="margin:auto">
+			<div class="col-lg-4 col-md-4 col-sm-12 text-center" style="margin:auto">
 				<p class="text-body-s">Copyright © 2020 | Todos los derechos reservados.</p>
 			</div>
-			<div class="col-lg-4" style="margin:auto">
+			<div class="col-lg-4 col-md-4 col-sm-12 text-center" style="margin:auto">
 				<p class="text-body-s">Desarrollado por <a style="color:#fff" href="http://www.odoestudio.com.ar" target="_blank">ODO.Estudio</a></p>
 			</div>
 		</div>

@@ -51,33 +51,35 @@ window.cookieconsent_options = {"message":"Utilizamos cookies propias y de terce
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <div class="container">
-    <a class="navbar-brand" href="#"><b class="color-primary">Laura Alonso</b></a>
+    <a class="navbar-brand" href="<?php echo SITE_URL;?>"><b class="color-primary">Laura Alonso</b></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav" style="margin:auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Quien soy <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo SITE_URL."/quien-soy";?>">Quien soy <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mi lado B</a>
+              <a class="nav-link" href="<?php echo SITE_URL."/ladob";?>">Mi lado B</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Cursos</a>
+              <a class="nav-link" href="<?php echo SITE_URL."/curso";?>">Asesoramiento</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">En la prensa</a>
+              <a class="nav-link" href="<?php echo SITE_URL."/prensas";?>">En la prensa</a>
             </li>
+            <!--
             <li class="nav-item">
               <a class="nav-link" href="#">Tienda L</a>
             </li>
+            !-->
         </ul>
           <span class="navbar-text">
             <a href="" type="button" data-toggle="modal" data-target="#modal-suscribirme" >Newsletter</a>
           </span>
-          <span class="navbar-text">
+          <span class="navbar-text navbar-divider">
             |
           </span>
           <span class="navbar-text">

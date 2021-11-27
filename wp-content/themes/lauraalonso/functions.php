@@ -35,7 +35,8 @@ function cpt_prensa() {
 			'has_archive' => true,
 			'query_var' => true,
 			'supports' => array('title','thumbnail'),
-			'rewrite' => array('slug' => 'prensa'),
+			'rewrite' => array('slug' => 'prensa'), 
+			'taxonomies' => array( 'category' ),
 	);
 	register_post_type( 'prensa', $args );
 }
@@ -70,5 +71,21 @@ function cpt_cursos() {
 	register_post_type( 'cursos', $args );
 }
 
+function pagination_bar() {
+    global $result;
+ 
+    $total_pages = $result->max_num_pages;
 
-?>
+    if ($total_pages > 1){
+        $current_page = max(1, get_query_var('paged'));
+ 
+        echo paginate_links(array(
+            'base' => get_pagenum_link(1) . '%_%',
+            'format' => '/page/%#%',
+            'current' => $current_page,
+            'total' => $total_pages,
+        ));
+    }
+}
+
+
